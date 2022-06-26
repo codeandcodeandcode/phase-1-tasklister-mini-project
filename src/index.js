@@ -14,6 +14,13 @@ f.addEventListener("submit", e=>{
   f.reset();
 })
 
+//Function to delete the record
+const deleteEl = (el)=>{
+  el.remove();
+}
+
+
+
 
 
 });
